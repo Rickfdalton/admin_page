@@ -19,17 +19,42 @@ body {
 .option {
   padding: 10px;
   margin: 10px;
+  font-size: 15px;
+  background-color: rgb(46, 38, 61);
+  color:aliceblue;
 }
 
 .log-out {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  margin: 40px;
-  padding: 10px;
+  
+  float:right;
+  margin:10px;
+  padding:10px;
+  margin-right:20px;
+  color:aliceblue;
+  background-color: rgb(46, 38, 61);
+  border-style: none;
+  border:1px aliceblue solid;
+  border-radius: 15px;
+  
+  /* border-style: none; */
+ 
+  
+  font-size: 15px;
+  
+}
+
+.log-out:hover,
+.option:hover{
+  background-color:rgb(78, 64, 100);
+  
+}
+.log-out:active,
+.option:active{
+  background-color:aliceblue ;
+  color:black;
 }
 
 .banner {
-  background-color: rgb(238, 235, 235);
-  height: 100px;
+  background-color: rgb(46, 38, 61);
+  height: 60px;
 }
